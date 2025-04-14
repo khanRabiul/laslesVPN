@@ -7,8 +7,60 @@
     <link rel="stylesheet" href="../dist/output.css" />
   </head>
   <body>
-<!-- Header Section Start -->
- <h1 class="text-primary">text</h1>
- <!-- Heder Section End -->
+    <!-- Header Section Start -->
+    <header>
+      <nav
+        class="max-w-[1440px] container mx-auto px-4 py-4 flex items-center justify-between"
+      >
+        <!-- Logo Stat-->
+        <a href="/src/index.html">
+          <div class="text-2xl font-bold flex items-center gap-2">
+            <img
+              src="./assets/images/logo.png"
+              alt="Lasles VPN Logo"
+              class="h-8"
+            />
+            <span class="text-primary">LaslesVpn</span>
+          </div>
+        </a>
+        <!-- Logo End -->
+
+        <!-- Menu Items Start -->
+        <ul class="hidden md:flex space-x-8">
+          <li class="text-gray-600 hover:text-primary">
+            <a href="#about">About</a>
+          </li>
+          <li class="text-gray-600 hover:text-primary">
+            <a href="#features">Features</a>
+          </li>
+          <li class="text-gray-600 hover:text-primary">
+            <a href="#pricing">Pricing</a>
+          </li>
+          <li class="text-gray-600 hover:text-primary">
+            <a href="#testimonials">Testimonials</a>
+          </li>
+          <li class="text-gray-600 hover:text-primary">
+            <a href="#help">Help</a>
+          </li>
+        </ul>
+        <!-- Menu Items End -->
+
+        <!-- Auth Buttons Start -->
+        <div class="space-x-4">
+          <button
+            class="text-gray-600 hover:text-primary hidden sm:inline-flex"
+          >
+            Sign In
+          </button>
+          <button
+            class="bg-primary text-white hover:bg-red-600 px-4 py-2 rounded-full cursor-pointer"
+          >
+            Sign Up
+          </button>
+        </div>
+        <!-- Auth Buttons End -->
+      </nav>
+    </header>
+    <!-- Heder Section End -->
   </body>
 </html>
