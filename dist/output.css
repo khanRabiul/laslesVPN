@@ -661,6 +661,13 @@
       }
     }
   }
+  .hover\:text-\[\#F53855\] {
+    &:hover {
+      @media (hover: hover) {
+        color: #F53855;
+      }
+    }
+  }
   .hover\:text-primary {
     &:hover {
       @media (hover: hover) {
